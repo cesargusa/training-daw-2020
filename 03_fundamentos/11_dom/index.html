@@ -50,7 +50,8 @@
 </style>
 <body>
     <header>
-        <h2>My blog</h2>
+        <h1>My blog</h1>
+        <h2>by me</h2>
     </header>
     <div class="container">
         <main>
@@ -99,7 +100,7 @@
                 </div>
             </article>
         </main>
-        <nav>
+        <nav id="nav">
             <p class="first">
                 <ul class="items">
                     <li class="item">Elemento 1</li>
@@ -108,9 +109,9 @@
                 </ul>
             </p>
             <p>
-                <label for="username">Nombre de usuario: </label>
-                <input name="username" />
-                <input type="submit" />
+                <label class="item" for="username">Nombre de usuario: </label>
+                <input id="username" name="username" />
+                <button>Enviar</button>
             </p>
         </nav>
     </div>
